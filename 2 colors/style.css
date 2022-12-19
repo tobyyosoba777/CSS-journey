@@ -12,3 +12,7 @@ p {
     /* color: rgba(0, 0, 0, 0.5) the 0.5 is the a (alpha) meaning the black is 50% transparent */
     color: #333333;
 }
+
+p{
+    text-decoration: none;
+}
