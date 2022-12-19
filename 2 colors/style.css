@@ -1,0 +1,14 @@
+/* visit https://coolors.co/contrast-checker/333333-ffefd5 for color contrast checker */
+
+body{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    background: papayawhip;
+    color: rgb(0, 0, 0);
+}
+
+p {
+    /* color: rgba(0, 0, 0, 0.5) the 0.5 is the a (alpha) meaning the black is 50% transparent */
+    color: #333333;
+}

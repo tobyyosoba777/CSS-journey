@@ -1,0 +1,74 @@
+/*the * is the universsal selector meaning it will select everything on the page*/
+/* * {
+    font-family: monospace;
+} */
+
+/* CSS is cascading style sheet and it works like a cascade which means it works from the top to
+the bottom and applying same ruleset on the same selector will overwrite the previous one
+at the top */
+
+/* the * slector is ultimate when selecting all other elements and giving them rulesets to
+inherit*/
+
+/* the star * means you are selecting all the html elements at once */
+
+
+/* you can also apply the inheritance rule in the html selector */
+html {
+    font-size: 22px;
+}
+
+body {
+    font-size: 22px;
+
+}
+
+/* another way is by using the main element to select everything under the body */
+main{
+    font-family: monospace;
+}
+
+
+button, input, textarea, select  {
+    font: inherit;
+}
+
+/* The body element is parent to every other element inside it and other elements will
+inherit its rule set(inheritance) */
+
+
+h1, h2{
+    color:blue;
+}
+
+
+/* classes have more specificity than element selectors even though the .gray class
+is above the p it will be read first */
+.gray {
+    color:grey;
+}
+
+p{
+    color:purple;
+
+}
+
+/* despite the face that the class selector overides the element selector
+adding the !important property value to the element ruleset will override the class
+selector */
+
+p{
+    color:red;
+
+}
+
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+
+
+#second {
+    font-style: italic;
+}
