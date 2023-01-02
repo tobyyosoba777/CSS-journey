@@ -1,0 +1,53 @@
+In CSS, the rem unit is a relative unit of measurement that is based on the
+font size of the root element (html element).
+
+The em unit is also a relative unit of measurement, but it is based on the font size
+of the element it is applied to.
+
+For example, if you set the font size of the html element to 16px, and you set the
+font size of a p element to 2rem, the font size of the p element will be 32px.
+If you then set the font size of a span element to 0.5em inside the p element,
+the font size
+of the span element will be 16px (0.5 * 32px).
+
+One advantage of using rem units is that it allows you to specify sizes relatively to
+the root element, which can make it easier to scale the size of elements on a page.
+em units can be more useful when you want to specify sizes that are relative to the
+font size of their parent element.
+
+Which unit you should use depends on your specific use case. In general,
+it's a good idea to use rem units for font sizes and em units for other length
+values such as margin and padding.
+
+
+
+
+
+rem - the rem is relative to the default element which is set by the browser,
+ it is not
+relative to any other element in the html page just the root element(set by the
+browser)
+
+1rem = 16px by default for p tags
+2rem = 32px y default for p tags
+
+em - used to define the size relative to the parent element
+if you have
+ <main>
+    <p>hello</p>
+    </main>
+
+and say:
+main {
+    font-size:2rem;
+
+}
+
+p {
+    font-size: 2rem;
+}
+
+the p tag becomes 64px big because it is looking at the parent element "main"
+is already 32px big
+
+you can set font-size of elements to rem and padding to em

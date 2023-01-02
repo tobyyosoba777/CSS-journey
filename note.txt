@@ -1,0 +1,24 @@
+In CSS, the box-sizing property specifies how the dimensions of an element are calculated.
+ There are two possible values for box-sizing: content-box and border-box.
+
+If the value of box-sizing is content-box, the dimensions of an element are calculated
+based on the size of its content. This means that the width and height properties apply
+only to the element's content, and do not include padding or border.
+
+If the value of box-sizing is border-box, the dimensions of an element are calculated
+based on the size of the border box. This means that the width and height properties
+include the element's content, padding, and border.
+
+
+
+
+The border-box property styles the margin and padding of the element based on the
+root element border to contain and fit the padding and margin on the font size
+
+It will retain the actual height and width of the element even when padding and
+margin is added to make the element bigger
+
+By default it is set to content box which is not really useful
+
+using border-box will help fit the set padding to contain the absolute font-size
+of the element to retain a calculated absolute value

@@ -5,7 +5,7 @@
 }
 
 body {
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 h1 {
@@ -20,6 +20,13 @@ main {
 }
 
 p {
-    font-size: 2rem;
+    /* font-size: 2rem; */
     width: 40ch;
+}
+
+h1 {
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
 }
