@@ -28,6 +28,8 @@ rem - the rem is relative to the default element which is set by the browser,
 relative to any other element in the html page just the root element(set by the
 browser)
 
+rem- is not relative to the parent element only the browser's default font-size
+
 1rem = 16px by default for p tags
 2rem = 32px y default for p tags
 
@@ -51,3 +53,7 @@ the p tag becomes 64px big because it is looking at the parent element "main"
 is already 32px big
 
 you can set font-size of elements to rem and padding to em
+
+
+when creating a button, the text on it can be styled using the rem and padding
+and margin should be set using the em
