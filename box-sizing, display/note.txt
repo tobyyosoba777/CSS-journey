@@ -1,0 +1,41 @@
+What i have learnt again:
+
+when displaying flex and working with positioning layout, the position: absolute allows
+you to display a styled element over another no matter its flex positioning property
+which by default will space the contents to fit the box
+like in example of index.html in this folder
+
+the position:relative will allow you to set a margin and bottom and position elements
+by any value you set at the {
+    top:
+    right:
+    left:
+}
+
+it allows element to be more flexible in the flex displayed by letting them to be spaced
+relative to other elements as defined by the user in the top, left, right
+
+
+static is the default position for HTML elements. Elements with position:
+static are positioned based on the normal flow of the page, as you would expect
+ them to be without any CSS styling.
+
+Static positioned elements are not affected by the top, bottom, left, and right properties.
+
+position: absolute is very useful when positioning elements and you want them to ignore the
+parent element position
+
+position:relative when set to the parent element will prevent the child elements from
+falling outside the parent the parent element block
+
+position: fixed; positions an element to stick to an html page and to always display
+
+From Chat GPT:
+In CSS, position: absolute is used to position an element in a specific location on the page.
+ It takes the element out of the normal document flow, and allows you to specify exact
+coordinates for where it should be placed on the page. The element is positioned relative
+to its closest positioned ancestor, if any; otherwise, it is positioned relative to the
+initial containing block.Note that using position: absolute can be somewhat tricky,
+as it can cause elements to overlap or behave unexpectedly if not used carefully. It
+is generally best to use more semantic positioning methods like position: relative or
+position: fixed unless you have a specific need for absolute positioning.
