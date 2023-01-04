@@ -4,9 +4,29 @@
     box-sizing:border-box;
 }
 
-h1 {
-    border: 2px red dashed;
-    width: 400px;
-    font-size: 3rem;
-    padding: 0.5em;
+.container {
+    border: 12px red double;
+    border-top: 5px solid rgb(255, 153, 0);
+    border-right: 10px dotted rgb(0, 4, 255);
+    /* width: 400px; */
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1.5em;
+    outline: 5px solid purple;
+    /* outline-offset: 9px; */
+}
+
+/* .container {
+
+} */
+
+.circle {
+    margin: 3rem auto;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
 }

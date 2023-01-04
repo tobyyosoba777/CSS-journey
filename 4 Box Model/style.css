@@ -13,6 +13,7 @@
     padding: 1.5em 2em 3em 4em;
     outline: 5px solid purple;
     outline-offset: 5px;
+    margin: 0 auto;
 }
 
 .circle {
