@@ -1,0 +1,56 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+.rectangle {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    margin: 10px;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    border-radius: 50px;
+    margin: 10px;
+
+}
+
+.oval {
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    border-radius: 100px/ 50px;
+    margin: 10px;
+}
+
+.triangle-up {
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+    margin: 10px;
+
+}
+
+
+.triangle-down {
+    height: 0;
+    width: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px red solid;
+    margin: 10px;
+}

@@ -1,0 +1,15 @@
+text and font settings are usually inherited
+
+Text
+text-align
+text-decoration
+text-transform
+text-indent
+
+line-height
+letter-spacing
+
+font-style
+font-weight
+
+https://fonts.google.com to get fonts for css and html

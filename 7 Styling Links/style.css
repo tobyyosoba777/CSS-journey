@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*
+
+Typography is the way that text is arranged and presented
+
+*/
+
+
+
+body {
+    padding: 10%;
+    font-size: 1.7rem;
+    font-family: 'Roboto', sans-serif;;
+}
+
+a {
+    /* text-decoration: none; */
+    /* cursor: not-allowed; */
+    cursor: pointer;
+    color: hsl(207, 44%, 49%);
+}
+
+/* pseudo class */
+
+a:visited {
+    color: purple;
+}
+
+a:hover a:focus{
+    color:hsl(207, 44%, 49%), 0.8;
+    background-color: gold;
+    /* opacity: 0.8; */
+}
+
+a:active {
+    color: red;
+}
+
+/* the pseudo class has more specificity over the element */
