@@ -54,3 +54,21 @@
     border-top: 100px red solid;
     margin: 10px;
 }
+
+.cross {
+    background: red;
+    height: 100px;
+    width: 20px;
+    position: relative;
+    margin: 10px;
+}
+
+.cross:after {
+  background: red;
+  content: "";
+  height: 20px;
+  left: -40px;
+  position: absolute;
+  top: 40px;
+  width: 100px;
+}

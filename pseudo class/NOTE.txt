@@ -1,0 +1,22 @@
+A pseudo-class in CSS is a keyword added to a selector that specifies a special
+ state of the element. It allows you to apply styles to an element based on the
+  element's attributes or location within the document.
+
+To learn about pseudo-classes in CSS, you can follow these steps:
+
+    Familiarize yourself with the different types of pseudo-classes available in CSS.
+     Some examples include:
+
+    :hover - applies styles to an element when the user hovers their mouse over it
+    :active - applies styles to an element when it is being activated, such as when
+    a button is being clicked
+    :focus - applies styles to an element when it has focus, such as when a user
+     is typing in a text field
+    :visited - applies styles to a link that has already been visited
+
+    Practice using pseudo-classes in your CSS by creating a simple HTML page and
+     applying styles to elements based on their state. For example, you can try
+      changing the background color of a button when it is hovered over by the user.
+
+    Read more about pseudo-classes in the CSS specification to learn about the full
+     range of options available and how to use them effectively in your stylesheets.

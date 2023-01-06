@@ -1,0 +1,40 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+/* .required::before {
+    content:"";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+}
+
+.required::after {
+    content:"";
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(0, 26, 255);
+} */
+
+.required::after {
+    content:"*";
+}
+
+[data-tooltip] {
+    position: relative;
+}
+
+[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 15px;
+    padding:5px;
+    top: 100%;
+    background-color: lightgray;
+}

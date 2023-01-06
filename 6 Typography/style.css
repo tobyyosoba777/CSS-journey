@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeon+Sung&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 /*
 
@@ -6,20 +9,64 @@ Typography is the way that text is arranged and presented
 
 */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 body {
     padding: 10%;
-    font-size: 1.7rem;
-    font-family: 'Roboto', sans-serif;;
+    font-size: 1.65rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 /* input, button {
     font: inherit;
 } */
 
+.container {
+    padding: 1em;
+    width: 490px;
+    margin: 0 auto;
+    border: 4px double rgb(255, 0, 0);
+    outline: 4px double rgb(183, 0, 255);
+}
+
+h1 .CSS, .typography {
+    word-spacing: 1.9rem;
+}
+
 p {
     line-height: 1.5;
     word-spacing: 0.1em;
+    font-size: italic;
+}
 
+.CSS {
+    color: rgb(0, 38, 255);
+    font-family: 'Rubik Bubbles', cursive;
+}
+
+.typography {
+    color: rgb(255, 0, 0);
+    font-family: 'Lobster', cursive;
+}
+
+[data-tooltip] {
+    position: relative;
+}
+
+[data-tooltip]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-top: 5px;
+    padding: 5px;
+
+    background-color: rgb(250, 233, 0);
 }
