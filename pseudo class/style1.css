@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 5rem;
+}
+
+p:before {
+    content: "hello";
+    display: block;
+    font-size: 20px;
+    background-color: red;
+    color:white;
+    font-weight: 900;
+}
+
+p:after {
+    content: "hello";
+    display: block;
+    font-size: 20px;
+    background-color: red;
+    color:white;
+    font-weight: 900;
+}
