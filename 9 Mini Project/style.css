@@ -51,5 +51,5 @@ li a:hover, li a:focus {
 }
 
 li:last-child a {
-    border-radius: 0 0 2rem 2rem;
+    border-radius: 0 0 1.8rem 1.8rem;
 }

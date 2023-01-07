@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
 * {
     margin: 0;
@@ -7,53 +9,96 @@
 }
 
 body {
-    font-family:"roboto" sans-serif;
     margin: 0.5rem;
     text-align: center;
+    font-family: 'roboto' sans-serif;
 }
 
 nav {
-    margin: 0 auto 1rem;
-    max-width: 600px;
+    font-size: 3rem;
+    line-height: 6.4rem;
+    margin: 0 auto 1.2rem;
+    max-width: 490px;
     border: 2px solid #333;
     border-radius: 2rem;
-    font-size: 2rem;
-    line-height: 6.7rem;
 }
 
-h2 {
-    padding: 1rem;
-    background-color: gold;
-    border-radius: 2rem 2rem 0 0;
+.text {
+    color: blue;
+    font-family: 'Rubik Bubbles', cursive;
 }
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(21, 255, 0);
+    border-radius: 1.8rem 1.8rem 0 0;
+}
+
+.container h2 {
+    padding-left: 1.4rem;
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* h2 {
+    background-color: rgb(124, 255, 2);
+    border-radius: 1.8rem 1.8rem 0 0;
+    padding: 1rem;
+    color: white;
+} */
 
 ul {
-    list-style-type: none ;
+    list-style-type: none;
 }
 
 li {
-    border-top: 2px solid #333 ;
+    border-top: 4px double #333;
 }
 
-li a{
+li a {
     display: block;
-}
-
-li {
-    border-top: 5px double #333;
 }
 
 li a,
 li a:visited {
     text-decoration: none;
-    color: #333;
+    color: blue;
 }
 
-li a:hover, li a:focus {
-    color: #fff;
+li a:hover,
+li a:focus {
     background-color: #333;
+    color: #fff;
 }
 
 li:last-child a {
     border-radius: 0 0 1.8rem 1.8rem;
+}
+
+p {
+    font-size: 1.3rem;
+}
+
+p a,
+p a:visited
+{
+    text-decoration: none;
+    color: none;
+}
+
+p a {
+    /* display: block; */
+}
+
+p a {
+    font-size: 1em;
+    background-color: rgb(51, 255, 0);
+    border-radius: 10px;
+    color: #0e0bb3;
+}
+
+.ri-cup-line {
+    font-size: 0.8em;
+    color: rgb(185, 0, 0);
+    padding: 0 0 0 1rem;
 }
