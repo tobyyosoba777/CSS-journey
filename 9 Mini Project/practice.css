@@ -12,6 +12,7 @@ body {
     margin: 0.5rem;
     text-align: center;
     font-family: 'roboto' sans-serif;
+
 }
 
 nav {
@@ -33,8 +34,8 @@ nav {
     margin: 0 auto;
     background-color: rgb(21, 255, 0);
     border-radius: 1.8rem 1.8rem 0 0;
-    box-shadow:  23px 23px 46px #006600,
-             -23px -23px 46px #00ff00;
+    box-shadow:  5px 5px 10px #006600,
+                -5px -5px 10px #00ff00;
 }
 
 .container h2 {
@@ -50,6 +51,7 @@ nav {
 } */
 
 ul {
+
     /* box-shadow:  23px 23px 46px #666666,
              -23px -23px 46px #ffffff; */
     list-style-type: none;
