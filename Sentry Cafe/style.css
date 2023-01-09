@@ -11,44 +11,45 @@
 body {
     margin: 0.5rem;
     text-align: center;
-    font-family: 'roboto' sans-serif;
-
+    /* font-family: 'roboto' sans-serif; */
 }
 
 nav {
-    font-size: 3rem;
-    line-height: 6.4rem;
     margin: 0 auto 1.2rem;
-    max-width: 490px;
-    border: 2px solid #333;
+    font-size: 1.3rem;
+    line-height: 6.3rem;
+    max-width: 400px;
+    border: 5px solid #000000;
     border-radius: 2rem;
 }
 
 .text {
-    color: blue;
+    color: rgb(0, 47, 255);
+    font-weight: 900;
     font-family: 'Rubik Bubbles', cursive;
 }
 
 .container {
     display: flex;
     margin: 0 auto;
+    align-items: center;
     background-color: rgb(21, 255, 0);
     border-radius: 1.8rem 1.8rem 0 0;
     box-shadow:  5px 5px 10px #006600,
                 -5px -5px 10px #00ff00;
+
 }
 
 .container h2 {
-    padding-left: 1.4rem;
-    font-family: 'PT Sans', sans-serif;
+    padding-left: 1.9rem;
+    font-size: 3.6rem;
+    color: #;
 }
 
-/* h2 {
-    background-color: rgb(124, 255, 2);
-    border-radius: 1.8rem 1.8rem 0 0;
-    padding: 1rem;
-    color: white;
-} */
+.ri-cup-line {
+    font-size: 2.1em;
+    color: rgb(211, 0, 0);
+}
 
 ul {
     background: #ffffff;
@@ -62,50 +63,21 @@ li {
     border-top: 4px double #333;
 }
 
-li a {
+li a{
     display: block;
 }
 
 li a,
 li a:visited {
     text-decoration: none;
-    color: blue;
+    font-size: 2rem;
 }
 
-li a:hover,
-li a:focus {
+li a:hover, li a:focus {
     background-color: #333;
     color: #fff;
 }
 
 li:last-child a {
-    border-radius: 0 0 1.8rem 1.8rem;
-}
-
-p {
-    font-size: 1.3rem;
-}
-
-p a,
-p a:visited
-{
-    text-decoration: none;
-    color: none;
-}
-
-p a {
-    /* display: block; */
-}
-
-p a {
-    border-radius: 54px;
-    background-color: rgb(21, 255, 0);
-    box-shadow:  5px 5px 10px #006600,
-                -5px -5px 10px #00ff00;
-}
-
-.ri-cup-line {
-    font-size: 0.8em;
-    color: rgb(185, 0, 0);
-    padding: 0 0 0 1rem;
+    border-radius: 0 0 1.6rem 1.6rem;
 }
