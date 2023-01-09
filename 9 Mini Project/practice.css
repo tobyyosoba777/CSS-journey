@@ -94,10 +94,6 @@ p a:visited
 }
 
 p a {
-    /* display: block; */
-}
-
-p a {
     border-radius: 54px;
     background-color: rgb(21, 255, 0);
     box-shadow:  5px 5px 10px #006600,
