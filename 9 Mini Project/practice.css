@@ -21,6 +21,8 @@ nav {
     max-width: 490px;
     border: 2px solid #333;
     border-radius: 2rem;
+
+
 }
 
 .text {
@@ -33,6 +35,14 @@ nav {
     margin: 0 auto;
     background-color: rgb(21, 255, 0);
     border-radius: 1.8rem 1.8rem 0 0;
+    /* border-radius: 50px; */
+    border-radius: 34px;
+    border-radius: 0px;
+    background: #80ff00;
+    border-radius: 34px;
+    background: #00ff00;
+    box-shadow:  13px 13px 26px #006600,
+                 -13px -13px 26px #00ff00;
 }
 
 .container h2 {
@@ -49,10 +59,14 @@ nav {
 
 ul {
     list-style-type: none;
+
+
 }
 
 li {
     border-top: 4px double #333;
+
+
 }
 
 li a {
