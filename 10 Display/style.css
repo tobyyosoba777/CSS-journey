@@ -15,7 +15,7 @@ ul {
     list-style-type: none;
     padding: 0.5rem;
     text-align: right;
-    background-color: #000;
+    background-color: rgb(25, 0, 255);
     margin: 0;
 }
 
@@ -34,7 +34,8 @@ li a:focus {
     text-decoration: underline;
 }
 
-/* p {
+p {
+    margin-top: 2rem;
     background-color: rgb(255, 238, 0);
     border-radius: 20px;
     border: 2px solid #333;
@@ -47,5 +48,5 @@ li a:focus {
     padding: 1.5rem;
     border-radius: 20px;
     border: 2px solid rgb(88, 0, 0);
-} */
+}
 
