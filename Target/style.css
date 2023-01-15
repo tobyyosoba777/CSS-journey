@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    /* background-color: lightblue; */
+}
+
+.parent {
+    margin: 1rem auto 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    background-color: blue;
+    border-radius: 250px;
+    /* border: 10px solid rgb(0, 0, 0); */
+}
+
+.one {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 200px;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    background-color: yellow;
+}
+
+.three {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(212, 0, 255);
+    border-radius: 100px;
+}
+
+.four {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50px;
+}
+
+.five {
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 25px;
+}
+
+.parent:hover, .one:hover, .two:hover, .three:hover,
+.four:hover, .five:hover {
+    transition: 0.5s ease-out;
+    background-color: #fff;
+}
