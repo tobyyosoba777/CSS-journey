@@ -13,25 +13,25 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     padding: 0 auto 2rem;
     margin: 0 auto 2rem;
     background: lightgray;
-    height: 280px;
+    /* height: 280px; */
     width: 500px;
-    border-radius: 32px;
-    border: 1.9px solid #333;
+    border-radius: 1.9rem;
+    /* border: 0.9px solid #ffffff; */
+    /* outline: 4px solid rgb(0, 0, 0); */
 }
 
 .header {
-    display: inline-block;
-    margin: 0 auto rem;
+    display: inline;
+    margin: 0 auto 0rem;
     background-color: rgb(255, 53, 53);
     padding: 0.5em;
     font-size: 1.3em;
-    border-radius: 32px;
-    outline: 1px solid #333;
-    width: inherit;
+    border-radius: 1.8rem 1.8rem 0 0 ;
+    /* outline: 1px solid #333; */
+    width: 500px;
 
 }
 
@@ -56,22 +56,25 @@ ul {
     display: inline-block;
     background-color: red;
     padding: 1.5rem;
-    border-radius: 4rem;
+    /* border-radius: 4rem; */
 
 }
 
 .exp {
     margin: 0 auto;
-    display: inline-block;
+    display: inline-flex;
+    width: inherit;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(32, 47, 250);
-    border-radius: 1rem;
+    border-radius: 0 0 2rem 2rem;
     color: #fff;
     padding: 0.5rem;
-    border: 3px solid rgb(235, 235, 235);
+    border: 0 0 3px 3px solid rgb(235, 235, 235);
 }
 
 .exp-text{
     font-size: 1.3rem;
-
+    text-align: center;
 }
 
