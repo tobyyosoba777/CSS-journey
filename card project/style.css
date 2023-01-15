@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto 2rem;
+    max-width: 650px;
+    /* min-height: 100vh; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    padding: 0 auto 2rem;
+    margin: 0 auto 2rem;
+    background: lightgray;
+    height: 280px;
+    width: 500px;
+    border-radius: 32px;
+    border: 1.9px solid #333;
+}
+
+.header {
+    display: inline-block;
+    margin: 0 auto rem;
+    background-color: rgb(255, 53, 53);
+    padding: 0.5em;
+    font-size: 1.3em;
+    border-radius: 32px;
+    outline: 1px solid #333;
+    width: inherit;
+
+}
+
+.image {
+    background-image: url("./tobi.jpg");
+    background-position: center;
+    width: 100px;
+    height: 100px;
+}
+
+p {
+    font-size: 1.6rem;
+    display: inline;
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.title {
+    display: inline-block;
+    background-color: red;
+    padding: 1.5rem;
+    border-radius: 4rem;
+
+}
+
+.exp {
+    margin: 0 auto;
+    display: inline-block;
+    background-color: rgb(32, 47, 250);
+    border-radius: 1rem;
+    color: #fff;
+    padding: 0.5rem;
+    border: 3px solid rgb(235, 235, 235);
+}
+
+.exp-text{
+    font-size: 1.3rem;
+
+}
+
