@@ -24,8 +24,6 @@ img {
 .container {
     display: flex;
     flex-direction: column;
-    /* padding: 0 auto 2rem; */
-    /* margin: 0 auto 2rem; */
     background: lightgray;
     /* height: 380px; */
     width: 500px;
