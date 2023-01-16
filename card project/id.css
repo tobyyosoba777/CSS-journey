@@ -13,7 +13,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: rgb(91, 94, 233);
-    width: 500px;
+    width: 490px;
     border-radius: 2.08rem;
     border: 0.02px solid #333;
 }
@@ -30,7 +30,7 @@ span {
     color: #fff;
     font-size: 1.2rem;
     margin: 0 auto;
-    width: 500px;
+    width: 489.4px;
     padding: 0.6rem;
     border-radius: 1.8rem 1.8rem 0 0 ;
 }
@@ -66,7 +66,7 @@ ul {
 }
 
 
-.tit {
+.details {
     display: flex;
     margin: 0;
 

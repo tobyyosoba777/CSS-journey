@@ -6,7 +6,8 @@
 
 body {
     margin: 0 auto;
-    /* background-color: lightblue; */
+    align-items: center;
+    /* background-color: rgba(173, 216, 230, 0.329); */
 }
 
 .parent {
@@ -69,6 +70,15 @@ body {
     height: 50px;
     background-color: rgb(0, 0, 0);
     border-radius: 25px;
+}
+
+.container {
+    margin: 0 auto;
+    align-items: center;
+    font-size: 1.7em;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
 }
 
 .parent:hover, .one:hover, .two:hover, .three:hover,
