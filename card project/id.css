@@ -18,6 +18,10 @@ body {
     border: 0.02px solid #333;
 }
 
+span {
+    width: 5rem;
+}
+
 .header {
     text-align: center;
     align-items: center;
@@ -34,7 +38,7 @@ body {
 .head {
     display: flex;
     text-align: center;
-    padding-left: 8rem;
+    padding-left: 5.6rem;
     /* background-color: rgb(255, 255, 255); */
     color: rgb(255, 255, 255);
     letter-spacing: 0.2rem;
