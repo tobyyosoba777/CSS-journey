@@ -5,18 +5,29 @@
 }
 
 body {
-    margin: 0 auto 2rem;
-    max-width: 650px;
+    margin: 0 auto 0rem;
+    max-width: 500px;
     /* min-height: 100vh; */
 }
+
+.image {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    margin: 0;
+    padding: 0;
+}
+
 
 .container {
     display: flex;
     flex-direction: column;
-    padding: 0 auto 2rem;
-    margin: 0 auto 2rem;
+    /* padding: 0 auto 2rem; */
+    /* margin: 0 auto 2rem; */
     background: lightgray;
-    /* height: 280px; */
+    /* height: 380px; */
     width: 500px;
     border-radius: 1.9rem;
     /* border: 0.9px solid #ffffff; */
@@ -35,12 +46,6 @@ body {
 
 }
 
-.image {
-    background-image: url("./tobi.jpg");
-    background-position: center;
-    width: 100px;
-    height: 100px;
-}
 
 p {
     font-size: 1.6rem;
@@ -61,13 +66,12 @@ ul {
 
 .tit {
     display: flex;
+    margin: 0;
 }
 
 .sign {
-    background-image: url("./tobi.jpg");
-    width: 99px;
-    height: 99px;
-    border-radius: 20px;
+    /* width: 90px; */
+    /* height: 90px; */
 }
 
 ul {
