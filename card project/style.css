@@ -59,16 +59,27 @@ ul {
 
 }
 
-ul {
+.tit {
     display: flex;
+}
+
+.sign {
+    background-image: url("./tobi.jpg");
+    width: 99px;
+    height: 99px;
+    border-radius: 20px;
+}
+
+ul {
+    display: inline-block;
     flex-direction: column;
     border: 1px solid black;
+    width: 360px;
 }
 
 li {
     font-size: 1.1em;
     padding: 0.1rem;
-    /* display: inline-flex; */
     flex-direction: row;
     background-color: rgb(240, 255, 36);
     border-top: 2px solid rgb(0, 19, 194);
