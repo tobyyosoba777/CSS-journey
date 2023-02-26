@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin: 0 auto;
+    height: 660px;
+    width: 290px;
+    border: 6px solid rgb(194, 3, 252);
+    border-radius: 180px;
+    background: #0e0e0e;
+}
+
+.child1 {
+    height: 200px;
+    width: 200px;
+    background: red;
+    border-radius: 50%;
+    outline: 5px solid #fff;
+    border: 3px solid #000000;
+}
+
+.child2 {
+    height: 200px;
+    width: 200px;
+    background: rgb(255, 238, 0);
+    border-radius: 50%;
+    outline: #fff;
+    border: #333;
+    outline: 5px solid #fff;
+    border: 3px solid #000000;
+}
+
+.child3 {
+    height: 200px;
+    width: 200px;
+    background: rgb(21, 255, 0);
+    border-radius: 50%;
+    outline: #fff;
+    border: #333;
+    outline: 5px solid #fff;
+    border: 3px solid #000000;
+}
