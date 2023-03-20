@@ -42,7 +42,6 @@ if you have
 and say:
 main {
     font-size:2rem;
-
 }
 
 p {

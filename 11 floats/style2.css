@@ -1,36 +1,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 body {
-  font-size: 1.5rem;
-  font-family: "Roboto", sans-serif;
-  background: #fff;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    background: #fff;
 }
 
 section {
     background-color: bisque;
-    border: 1px solid #333;
-    padding: 1rem;
+    border: 1px solid #000;
     display: flow-root;
-}
-
-.block {
-    width: 30vw;
-    height: 30vw;
-    background-color: #000;
-    color: #fff;
     padding: 1rem;
 }
 
 .left {
     float: left;
     margin-right: 1rem;
-    border-radius: 1rem;
 }
 
 .right {
     float: right;
     margin-left: 1rem;
-    border-radius: 1rem;
 }
 
-
+.block {
+    height: 30vw;
+    width: 30vw;
+    padding: 1rem;
+    background: #111111;
+    color: #fff;
+    border-radius: 1.5rem;
+}
