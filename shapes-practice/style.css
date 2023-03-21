@@ -108,3 +108,21 @@
     top: 40px;
     left: -40px;
 }
+
+.cross2 {
+    height: 100px;
+    width: 20px;
+    background: rgb(255, 166, 1);
+    margin: 45px;
+    position: relative;
+}
+
+.cross2::after {
+    content: "";
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    background: rgb(255, 166, 1);
+    top: 40px;
+    left: -40px;
+}
