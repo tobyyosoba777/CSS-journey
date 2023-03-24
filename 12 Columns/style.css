@@ -17,8 +17,6 @@ body {
     columns: 4 250px;
 }
 
-
-
 .columns p {
     margin-top: 0;
 }
@@ -30,13 +28,35 @@ body {
     padding: 1rem;
 }
 
+.columns .quote {
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #333;
+    column-span: all;
+}
+
+.nowrap {
+    white-space: ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .column {
     column-count: 3;
     column-width: 125px;
     column-rule: #333 3px solid;
     break-inside: avoid;
-}
-
-.quote {
-    font-size: 3rem;
 }
