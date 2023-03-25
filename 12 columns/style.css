@@ -45,7 +45,7 @@ body {
     padding: 5px 0;
     background: #ff0000;
     color: #ffffff;
-
+    white-space: nowrap;
 }
 
 
