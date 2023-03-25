@@ -1,0 +1,55 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    transition: all .4s ease-out;
+    font-family: sans-serif;
+    background: #e6e6e6;
+    font-size: 1.25em;
+}
+
+.columns {
+    padding: 2em;
+    border-radius: 3rem;
+    
+    margin: 3rem;
+    columns: 3 200px;
+    column-rule: #ff00c8 2.5px solid;
+    column-gap: 2em;
+
+}
+
+.columns p {
+    font-weight: 500;
+}
+
+header {
+    font-size: 2em;
+}
+
+header h2 {
+    font-size: 2.6rem;
+    column-span: all;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.bx-moon {
+    color: purple;
+}
+
+.bx-sun {
+    color: yellow;
+}
+
+.columns .top {
+    margin-top: 0;
+}
+
+body.color {
+    transition: all .4s ease-out;
+    background: #0f0f0f;
+    color: #fff;
+}
