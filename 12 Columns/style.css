@@ -26,6 +26,7 @@ body {
     background-color: #333;
     color: #fff;
     padding: 1rem;
+    break-inside: avoid;
 }
 
 .columns .quote {
@@ -37,7 +38,7 @@ body {
 }
 
 .nowrap {
-    white-space: ;
+    white-space: nowrap;
 }
 
 
