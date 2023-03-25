@@ -27,6 +27,14 @@ body {
 
 }
 
+.container #darkmode {
+    font-size: 2rem;
+    display: flex;
+    background: #000000;
+    color: #fff;
+    cursor:default ;
+}
+
 .container p{
     font-size: 1.4em;
 }

@@ -1,0 +1,43 @@
+
+
+body {
+    background: #ffff72;
+}
+
+.columns h1 {
+    text-align: center;
+    font-size: 3.1rem;
+    font-weight: 900;
+    column-span: all;
+}
+
+.contain1 {
+    margin-top: 0;
+}
+
+.columns {
+    column-width: 350px;
+    margin: 4rem;
+}
+
+.columns div {
+    border-top: 3px solid #fff;
+    border-left: 3px solid #fff;
+    font-size: 1.4rem;
+    border-radius: 2rem;
+    padding: 4em;
+}
+
+.contain1 {
+    margin-top: 0;
+    background: #ff1563;
+}
+
+.contain2 {
+    background: rgb(41, 241, 255);
+}
+
+.contain3 {
+    background: #9055ff;
+    column-span: ;
+}

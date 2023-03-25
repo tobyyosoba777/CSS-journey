@@ -1,12 +1,12 @@
 let darkmode = document.querySelector("#darkmode")
 
 darkmode.onclick = () => {
-    if (darkmode.contains("bx-moon")) {
-        darkmode.toggle("bx-sun")
-        document.body.add("color");
+    if (darkmode.classList.contains("bx-moon")) {
+        darkmode.classList.replace("bx-moon", "bx-sun")
+        document.body.classList.add("color");
     }
     else {
-        darkmode.toggle("bx-moon")
-        document.body.remove("color")
+        darkmode.classList.replace("bx-sun", "bx-moon")
+        document.body.classList.remove("color")
     }
 }
