@@ -20,7 +20,7 @@ header {
 
 .columns {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow:row wrap;
     justify-content: center;
     margin: 5px 0;
 }
@@ -32,6 +32,8 @@ header {
     padding: 10px;
     background: #3af4d5;
     transition: .3s;
+    font-size: 1.4em;
+    border-radius: 40px;
 }
 
 .column:first-child {
