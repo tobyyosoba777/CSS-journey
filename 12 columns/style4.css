@@ -12,7 +12,6 @@ body {
 .columns {
     padding: 2em;
     border-radius: 3rem;
-    
     margin: 3rem;
     columns: 3 200px;
     column-rule: #ff00c8 2.5px solid;
