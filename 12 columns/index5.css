@@ -14,15 +14,10 @@ header {
     font-size: 1.6rem;
 }
 
-header h2 {
-
-}
-
 .columns {
     padding: 1.2em;
     column-rule: 3px solid #ff2554;
     columns: 3 200px;
-
 }
 
 .columns .one {
@@ -31,6 +26,10 @@ header h2 {
     text-align: center;
     border-radius: 150px;
     padding: 0.3rem 0;
+}
+
+.columns .one:hover {
+    background: #e60032;
 }
 
 .columns .top {
