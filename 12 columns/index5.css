@@ -29,6 +29,7 @@ header {
 }
 
 .columns .one:hover {
+    cursor: default;
     background: #e60032;
 }
 
