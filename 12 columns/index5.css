@@ -1,0 +1,53 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    transition: all .4s ease-in;
+    font-size: 1.4em;
+    font-family: sans-serif;
+    background-color: #ebebeb;
+
+}
+
+header {
+    font-size: 1.6rem;
+}
+
+header h2 {
+
+}
+
+.columns {
+    padding: 1.2em;
+    column-rule: 3px solid #ff2554;
+    columns: 3 200px;
+
+}
+
+.columns .one {
+    background: #ff0037;
+    color: #fff;
+    text-align: center;
+    border-radius: 150px;
+    padding: 0.3rem 0;
+}
+
+.columns .top {
+    margin: 0;
+}
+
+.bx-moon {
+    color:purple;
+}
+
+.bx-sun {
+    color: yellow;
+}
+
+body.color {
+    transition: all .4s ease-in;
+    background-color: #161616;
+    color: #fff;
+}
+
