@@ -1,7 +1,31 @@
 
 
 body {
-    background-color: #fff;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+body::after {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#ff0000, #ff3);
+    z-index: 99;
+    position: absolute;
+    clip-path: circle(30% at right 70%);
+}
+
+body::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(#d400ff, #0004ff);
+    position: absolute;
+    z-index: 99;
+    clip-path: circle(17% at left 10%);
+
+
 }
 
 .parent {
@@ -10,8 +34,8 @@ body {
     background-color: rgb(0, 140, 255);
     padding: 0.7rem;
     position: relative;
-    /* max-width: 670px; */
-    /* height: 200px; */
+    margin: 3rem;
+    max-width: 270px;
 }
 
 .child:nth-child(1) {
@@ -34,5 +58,5 @@ body {
 .child-one {
     position: absolute;
     top: 0;
-    left: 0;
+    right: -10;
 }
