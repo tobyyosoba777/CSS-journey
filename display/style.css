@@ -24,8 +24,6 @@ body::before {
     position: absolute;
     z-index: 99;
     clip-path: circle(17% at left 10%);
-
-
 }
 
 .parent {
@@ -35,7 +33,7 @@ body::before {
     padding: 0.7rem;
     position: relative;
     margin: 3rem;
-    max-width: 270px;
+    width: 270px;
 }
 
 .child:nth-child(1) {
