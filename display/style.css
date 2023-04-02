@@ -23,7 +23,7 @@ body::before {
     background: linear-gradient(#d400ff, #0004ff);
     position: absolute;
     z-index: 99;
-    clip-path: circle(17% at left 10%);
+    clip-path: circle(15% at left 14%);
 }
 
 .parent {
@@ -53,8 +53,8 @@ body::before {
     padding: 0.5rem;
 }
 
-.child-one {
+/* .child-one {
     position: absolute;
     top: 0;
     right: -10;
-}
+} */
