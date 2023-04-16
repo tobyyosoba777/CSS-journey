@@ -42,7 +42,7 @@
 }
 
 .container-3-box {
-    flex-basis: 12%;
+    flex-basis: 11%;
 }
 
 @media(min-width:468px) {
