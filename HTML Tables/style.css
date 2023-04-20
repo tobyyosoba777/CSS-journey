@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+
+    border: 1px solid #000;
+    font-size: 22px;
+    background: rgb(0, 255, 76);
+    margin: 20px auto;
+}
+
+th,td {
+    border: #000 solid 1px;
+}
+
+th {
+    color: #fff;
+}
+
+tr {
+    color: #111;
+}
