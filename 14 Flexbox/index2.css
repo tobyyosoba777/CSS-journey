@@ -4,13 +4,7 @@ body {
 }
 
 .flexbox-container {
-    margin-top: 12rem;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    background-color: yellow;
-    align-items: center;
-    align-content: center;
 }
 
 .flexbox-item {
@@ -22,12 +16,17 @@ body {
 
 .flexbox-item-1 {
     min-height: 100px;
+    flex-shrink: 0;
 }
 .flexbox-item-2 {
     min-height: 200px;
+    flex-grow: 2;
+    flex-basis: 0;
 }
 .flexbox-item-3 {
     min-height: 300px;
+    flex-grow: 1;
+    flex-basis: 0;
 }
 
 
