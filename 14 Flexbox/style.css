@@ -21,8 +21,6 @@ body {
   gap: 1rem;
   justify-content: center;
   align-items: center;
-  /* flex-direction: row; */
-  flex-wrap: wrap;
   flex-flow: row wrap;
   align-content: space-evenly;
 }
@@ -37,7 +35,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  /* shorthand */
   /* first value on the flex is flex-grow second is flex shrink and third is the flex-basis  */
   flex: 1 1 150px;
 
