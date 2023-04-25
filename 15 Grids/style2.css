@@ -8,9 +8,12 @@
     grid-column-gap: 20px;
     /* shorthand  */
     grid-gap: 20px;
-    justify-content: space-around;
-    align-content: stretch;
-    height: 100vh;
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.grid-item-1 {
+    align-self: start;
 }
 
 /* .grid-item-1 {
