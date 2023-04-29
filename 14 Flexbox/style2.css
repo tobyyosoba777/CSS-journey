@@ -28,7 +28,7 @@ body {
 .box {
     display: flex;
     height: 100px;
-    background: #000;
+    background: #080808;
     color: #fff;
     font-size: 2rem;
     padding: 0.5rem;
