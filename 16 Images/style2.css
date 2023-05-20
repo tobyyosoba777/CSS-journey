@@ -27,6 +27,16 @@ img {display: block;}
 body {
     font-family: "Nunito", sans-serif;
     min-height: 100vh;
+    background-color: aliceblue;
+    /* background-image: url(./img/bubbles.png),
+    linear-gradient(to left, steelblue, #fff);
+    background-repeat: repeat-y, no-repeat;
+    background-position: right; */
+
+    background-size: 30%, auto;
+    background: repeat-y right center url(./img/bubbles.png),
+    no-repeat linear-gradient(to left, steelblue,
+    #fff);
 }
 
 .container {
@@ -79,4 +89,16 @@ body {
 .example img {
     width: 25%;
     height: auto;
+}
+
+.clip {
+    font-weight: 800;
+    font-size: 17rem;
+    text-align: center;
+    background-image: url(./img/scenic-2200x1331.png);
+    background-size: 100%;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: hsla(0, 0%, 0%, 0.384);
 }
