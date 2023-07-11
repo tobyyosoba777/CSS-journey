@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    background: #fff;
+}
+
+section {
+    background: bisque;
+    padding: 1rem;
+    overflow: auto;
+    border: 1px #000 solid;
+}
+
+.block {
+    height: 30vw;
+    width: 30vw;
+    background: #000;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+.left {
+    float: left;
+    margin-right: 1rem;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem;
+}

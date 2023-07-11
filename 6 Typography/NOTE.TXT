@@ -5,9 +5,9 @@ text-align
 text-decoration
 text-transform
 text-indent
-
 line-height
 letter-spacing
+word-spacing
 
 font-style
 font-weight

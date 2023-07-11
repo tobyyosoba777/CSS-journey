@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS selectors</title>
+
+    <style>
+        /*li.red ~ li.green {
+            background: rgb(255, 0, 0);
+        }
+
+        li.red + li {
+            background: rgb(255, 251, 0);
+        }
+
+        li:hover {
+            background: red;
+        }
+
+        input:checked {
+            background: red;
+            margin: 50px;
+        }*/
+
+        /*li:nth-last-child(2n-1) {
+            background-color: green;
+        }*/
+        span:only-child {
+            background: red;
+        }
+        li:not(.green) {
+            background: red;
+        }
+        div.red::before {
+            content: "before";
+            background: red;
+        }
+
+    </style>
+
+</head>
+<body>
+    <input required type="checkbox">
+    <div>wwwww</div>
+    <div class="red">This is a div</div>
+    <span id="blue">This is a span</span>
+    <div>
+        <span>
+            <b>nested text</b>
+        </span>
+    </div>
+    <ul>
+        <li>Item 1</li>
+        <li class="red">Item 2</li>
+        <li>Item 3</li>
+        <li class="green">Item 4</li>
+    </ul>
+
+</body>
+</html>

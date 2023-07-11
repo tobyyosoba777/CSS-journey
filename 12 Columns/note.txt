@@ -1,0 +1,1 @@
+p*5 on html is an emmet abbreviation that will display 5 <p> tags

@@ -55,20 +55,74 @@
     margin: 10px;
 }
 
-.cross {
+/* .cross {
     background: red;
     height: 100px;
     width: 20px;
     position: relative;
-    margin: 10px;
+    margin-left: 45px ;
 }
 
 .cross:after {
   background: red;
   content: "";
   height: 20px;
-  left: -40px;
-  position: absolute;
-  top: 40px;
   width: 100px;
+  position: absolute;
+  left: -40px;
+  top: 40px;
+} */
+
+.cross {
+    height: 150px;
+    width: 20px;
+    background: red;
+    margin-left: 45px;
+    position: relative;
+}
+
+.cross::after {
+    content: "";
+    height: 20px;
+    width: 100px;
+    background: red;
+    position: absolute;
+    top: 40px;
+    left: -40px;
+}
+
+.cross1 {
+    height: 100px;
+    width: 20px;
+    margin: 45px;
+    background: red;
+    position: relative;
+}
+
+.cross1::after {
+    content: "";
+    width: 100px;
+    height: 20px;
+    background: red;
+    position: absolute;
+    top: 40px;
+    left: -40px;
+}
+
+.cross2 {
+    height: 100px;
+    width: 20px;
+    background: rgb(255, 166, 1);
+    margin: 45px;
+    position: relative;
+}
+
+.cross2::after {
+    content: "";
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    background: rgb(255, 166, 1);
+    top: 40px;
+    left: -40px;
 }

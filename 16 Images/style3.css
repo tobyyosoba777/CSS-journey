@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: aliceblue;
+    min-height: 100vh;
+    background-size: 30% auto;
+    background: repeat-y right center url("./img/bubbles.png"),
+    no-repeat linear-gradient(to left, steelblue, #fff);
+
+}
+
+img {display: block;}
+
+
+.clip {
+    font-weight: 800;
+    font-size: 17rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-image: url(./img/scenic-2200x1331.png);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: hsla(0, 0%, 0%, 0.288);
+}
