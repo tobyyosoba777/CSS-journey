@@ -134,9 +134,9 @@ footer {
     .card figure {
         flex-flow: column-reverse;
     }
-    .card figcaption {
+    /* .card figcaption {
         margin: 0.1em 0;
-    }
+    } */
     .card p {
         margin-top: 1rem;
     }
