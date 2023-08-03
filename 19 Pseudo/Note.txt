@@ -1,0 +1,8 @@
+Pseudo selectors are CSS Selectors used to target specific html elements
+in a specific state. 
+
+Pseudo Elements creates new HTML elements using CSS and they use double 
+:: column to create new elements without having to write HTML code
+Examples are ::before and ::after 
+
+You make pseudo Selection using Pseudo classes
