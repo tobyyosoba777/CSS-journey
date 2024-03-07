@@ -97,7 +97,7 @@ footer {
 
 @media screen and (max-height: 425px) and (min-aspect-ratio: 7/4) {
     body {
-        background-color: ;
+        background-color: dodgerblue;
         background-image: radial-gradient(whitesmoke, dodgerblue);
     }
     h1, h2 {
