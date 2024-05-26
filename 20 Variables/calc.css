@@ -1,0 +1,28 @@
+
+:root {
+    --hue: 100;
+}
+
+
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: red;
+    height: 100px;
+}
+
+.container {
+    --width: 100px;
+    width: calc(var(--width) * 10   );
+    margin: 0 auto;
+}
+
+.primary {
+    background-color: hsl(var(--hue), 100%, 50%);
+}
+
+.danger {
+    background-color: hsl(calc(var(--hue) - 180), 100%, 50%);
+}
