@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect</title>
+</head>
+<body>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f8f8f8;
+            color: #1d1d1d;
+            font-family: 'Times New Roman', Times, serif;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        .main {
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .main h3 {
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            letter-spacing: 0.2px;
+            font-size: 1.5em;
+            text-align: center;
+            font-weight: 700;
+        }
+        .main-section {
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .main-section p {
+            font-size: 1.1rem;
+            font-weight: 400;
+            text-align: center;
+        }
+        button {
+            padding: 13px 18px;
+            border: 1px solid #d1d1d1;
+            color: #181818;
+            border-radius: 10px;
+            background: transparent;
+            font-size: 0.99em;
+        }
+        button:hover {
+            cursor: pointer;
+        }
+        button:active {
+            color: red;
+        }
+    </style>
+
+    <div class="main">
+        <div class="main-section">
+            <h3>No connection detected</h3>
+            <p>Check your network cables, modem, or router.</p>
+        </div>
+
+        <div class="try-btn">
+            <button>Try again</button>
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>

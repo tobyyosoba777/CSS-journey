@@ -8,6 +8,40 @@ body {
     margin: 0;
 }
 
+nav {
+    display: flex;
+    padding: 20px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .items a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 20px;
+}
+
+.misc a{
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    nav .items a{
+        display: none;
+    }
+    .items.active a{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .misc a{
+        display: initial;
+    }
+}
+
+
 .container {
     background-color: red;
     height: 100px;
