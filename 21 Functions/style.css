@@ -103,6 +103,10 @@ main section {
 main aside {
     background-color: hsla(0, 0%, 20%, 0.8);
     color: var(--LIGHT-COLOR);
+    font-size: var(--FS-SM);
+    font-style: italic;
+    padding: var(--PADDING);
+
 }
 
 footer {
@@ -125,4 +129,17 @@ footer {
   place-content: center;
   font-size: var(--FS-XL);
   box-shadow: var(--SHADOWS);
+}
+
+@media screen and (min-width: 576px) {
+  main {
+    flex-flow: row nowrap;
+    justify-content: space-between;
+  }  
+  main section {
+    width: calc(70% - 5px);
+  }
+  main aside {
+    width: calc(30% - 5px);
+  }
 }

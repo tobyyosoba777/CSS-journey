@@ -3,15 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Connect</title>
+    <title>Connection Error UI</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 </head>
 <body>
+    <header>
+        <div class="dark-light-toggle">
+            <i class="ri-moon-fill"></i>
+        </div>
+    </header>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+        .dark-light-toggle {
+            display: flex;
+            justify-content: flex-end;
+            padding: 40px 40px 0 30px;
+        }
+        .dark-light-toggle i {
+            font-size: 15px;
+            background: linear-gradient(to right bottom, #0011ff, #8b00cc);
+            border-radius: 30px;
+            padding: 8px;
+        }
+        .ri-sun-fill {
+            color: #ffe15a;
+        }
+        .ri-moon-fill {
+            color: #ff899d;
+        }
+        .dark-light-toggle i:hover {
+            cursor: pointer;
+            transform: scale(1.2);
         }
         body {
             background-color: #f8f8f8;
@@ -25,13 +56,25 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            gap: 15px;
         }
         .main h3 {
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-            letter-spacing: 0.2px;
-            font-size: 1.5em;
+            font-family: "Nunito", sans-serif;
+            font-optical-sizing: auto;
+            font-size: 1.7em;
             text-align: center;
-            font-weight: 700;
+            font-weight: 600;
+        }
+        .main-section div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 5px;
+        }
+        i {
+            font-size: 1.5em;
+            color: #ee0014;
         }
         .main-section {
             margin-bottom: 30px;
@@ -58,11 +101,24 @@
         button:active {
             color: red;
         }
+        body.dark {
+            color: #fff;
+            background-color: #333;
+            button {
+                color: #f0f0f0;
+            }
+            button:active {
+                color: rgb(255, 55, 55);
+            }
+        }
     </style>
 
     <div class="main">
         <div class="main-section">
-            <h3>No connection detected</h3>
+            <div class="header-text">
+                <h3>No connection detected</h3>
+                <i class="ri-cloud-off-line"></i>
+            </div>
             <p>Check your network cables, modem, or router.</p>
         </div>
 
@@ -73,5 +129,6 @@
 
     </div>
     
+    <script src="./script.js"></script>
 </body>
 </html>
