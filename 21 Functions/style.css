@@ -12,7 +12,7 @@
   /* FONT */
   --FF: "Nunito", sans-serif;
   --FS: clamp(1.75rem, 3vh, 2.25rem);
-  --FS-SM: clamp(1.25rem, 2vh, 1,5rem);
+  --FS-SM: clamp(1.25rem, 2vh, 1.5rem);
   --FS-XL: 3rem;
 
   /* COLOR */
@@ -70,13 +70,12 @@ footer {
 
 header {
   top: 0;
-  width: calc(100% - 40px);
+  width: calc(100%);
 }
 
 nav {
   background-color: var(--LIGHT-COLOR);
   color: var(--DARK-COLOR);
-  /* padding: var(--PADDING); */
   border-bottom: var(--BORDERS);
   box-shadow: var(--SHADOWS);
 }
@@ -92,7 +91,6 @@ main {
   display: flex;
   flex-flow: column nowrap;
   justify-content: flex-start;
-
 }
 
 main section {
@@ -106,7 +104,6 @@ main aside {
     font-size: var(--FS-SM);
     font-style: italic;
     padding: var(--PADDING);
-
 }
 
 footer {
