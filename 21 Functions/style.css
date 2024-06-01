@@ -106,8 +106,23 @@ main aside {
     padding: var(--PADDING);
 }
 
+.content {
+  margin-top: 20px;
+}
+
 footer {
   bottom: 0;
+}
+
+a:any-link {
+  color: firebrick;
+}
+
+a:hover, a:focus {
+  /* opacity: 0.8; */
+  /* color: hsla(0, 0%, 20%, 0.8); */
+  filter: brightness(150%);
+  filter: hue-rotate(180deg);
 }
 
 /* || FEATURES */
