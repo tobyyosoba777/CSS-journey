@@ -82,15 +82,16 @@ nav {
 
 main {
   flex-grow: 1;
-  /* padding: 10px 0;
-  display: flex;
-  justify-content: space-evenly;
+  padding: var(--PADDING);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 300px));
+  gap: min(2vw, 20px);
+  /* justify-content: space-evenly;
   align-items: center;
-  flex-flow: row wrap;
-  gap: min(4vw, 15px); */
-  display: flex;
+  flex-flow: row wrap; */
+  /* display: flex;
   flex-flow: column nowrap;
-  justify-content: flex-start;
+  justify-content: flex-start; */
 }
 
 main section {
@@ -110,6 +111,51 @@ main aside {
   margin-top: 20px;
 }
 
+.tooltip {
+  border-bottom: 1px dashed orange;
+  position: relative;
+}
+
+.tooltip:hover::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: -20px;
+  white-space: nowrap;
+  background-color: var(--DARK-COLOR);
+  padding: var(--PADDING);
+  border-radius: 15px;
+}
+
+.tooltips {
+  border-bottom: 1px solid greenyellow;
+  position: relative;
+}
+
+.tooltips:hover::before {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: -20px;
+  background-color: var(--DARK-COLOR);
+  padding: var(--PADDING);
+  border-radius: 15px;
+  width: 90px;
+}
+
+.new-tooltip {
+  border: 1px solid blueviolet;
+  position: relative;
+}
+
+.new-tooltip:hover::before {
+  content: attr(data-new);
+  padding: var(--PADDING);
+  background-color: var(--DARK-COLOR);
+  border-radius: 15px;
+  width: 100px;
+  position: absolute;
+  top: -20px;
+}
+
 footer {
   bottom: 0;
 }
@@ -121,8 +167,8 @@ a:any-link {
 a:hover, a:focus {
   /* opacity: 0.8; */
   /* color: hsla(0, 0%, 20%, 0.8); */
-  /* filter: brightness(150%); */
-  filter: hue-rotate(180deg);
+  filter: brightness(150%);
+  /* filter: hue-rotate(180deg); */
 }
 
 /* || FEATURES */
@@ -133,8 +179,8 @@ a:hover, a:focus {
 
 .square {
   background-color: var(--SQUARE-BGCOLOR);
-  width: var(--SQUARE-SIZE);
-  height: var(--SQUARE-SIZE);
+  /* width: var(--SQUARE-SIZE);
+  height: var(--SQUARE-SIZE); */
   border: var(--BORDERS);
   border-radius: 15px;
   display: grid;
