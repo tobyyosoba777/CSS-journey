@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --clr-accent: rgb(255, 44, 79); 
+    --clr-rgba: #ffd9df;
+    --clr-light: #ffe4e8;
+}
+
+body {
+    background-color: rgb(193, 255, 255);
+}
+
+.btn {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    color: var(--clr-accent);
+    background-color: var(--clr-rgba);
+    border: 10px solid var(--clr-accent);
+    border-radius: 5px;
+
+    /* transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0ms; */
+
+    transition: all 0.3s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    background-color: var(--clr-accent);
+    color: var(--clr-light);
+}
