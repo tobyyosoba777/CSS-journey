@@ -69,9 +69,26 @@ header {
     transform: translate(-20px, 12px);
 }
 
-nav {
+:is(header:hover, header:focus-within) .menu-icon {
+    background-color: transparent;
+}
+
+:is(header:hover, header:focus-within) .menu-icon::before {
+    transform: translateX(-20px) rotate(45deg);
+}
+
+:is(header:hover, header:focus-within) .menu-icon::after {
+    transform: translateX(-20px) rotate(-45deg);
+}
+
+:is(header:hover, header:focus-within) nav {
     display: block;
+}
+
+nav {
+    display: none;
     transform-origin: top center;
+    animation: showMenu 0.5s ease-in-out forwards;
 }
 
 @keyframes showMenu {
