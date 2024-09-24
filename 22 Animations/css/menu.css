@@ -71,6 +71,7 @@ header {
 
 :is(header:hover, header:focus-within) .menu-icon {
     background-color: transparent;
+    transform: rotate(720deg);
 }
 
 :is(header:hover, header:focus-within) .menu-icon::before {
@@ -86,6 +87,7 @@ header {
 }
 
 nav {
+    background-color: var(--HEADER-BGCOLOR);
     display: none;
     transform-origin: top center;
     animation: showMenu 0.5s ease-in-out forwards;
@@ -121,6 +123,7 @@ nav a {
     text-align: center;
     width: 80%;
     margin: auto;
+    transition: all 0.3s;
 }
 
 nav a:any-link {
