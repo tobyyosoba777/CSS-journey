@@ -192,3 +192,169 @@ a:active {
         scaleY(1);
     }
 }
+
+/* FOOTER  */
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    background-color: var(--HEADER-BGCOLOR);
+    color: var(--HEADER-COLOR);
+    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+    text-align: center;
+}
+
+/* MAIN  */
+
+.main {
+    padding: var(--PADDING-TB) var(--PADDING-SIDE);
+}
+
+.main__article {
+    scroll-margin-top: 6.5rem;
+    margin: var(--MARGIN);
+}
+
+.main__article:first-child {
+    margin-top: 1em;
+}
+
+.main__article:last-child {
+    min-height: calc(100vh - 20rem);
+}
+
+/* ABOUT  */
+
+.about__trivia {
+    margin: var(--MARGIN);
+}
+
+.about__trivia-answer {
+    margin-top: 1em;
+}
+
+/* CONTACT  */
+
+.contact__h2 {
+    margin: 0;
+}
+
+.contact__fieldset {
+    border: none;
+}
+
+.conatct__p {
+    margin: 1em 0;
+}
+
+.conatct__label {
+    display: block;
+    font-weight: bold;
+}
+
+.contact__input, 
+.contact__textarea {
+    padding: 0.5em;
+    border-radius: 15px;
+    border-width: 2px;
+    width: 100%;
+}
+
+.contact__button {
+    padding: 0.5em;
+    border-radius: var(--BORDER-RADIUS);
+    background-color: var(--HIGHLIGHT-COLOR);
+    color: var(--BUTTON-COLOR);
+    font-weight: bold;
+}
+
+/* || MENU */
+
+thead,
+tbody,
+tfoot,
+tr {
+    display: contents;
+}
+
+.menu__container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+        "hd1 hd2 hd3"
+        "cr cr1 cr1p"
+        "cr cr2 cr2p"
+        "cr cr3 cr3p"
+        "sf sf1 sf1p"
+        "sf sf2 sf2p"
+        "sf sf3 sf3p"
+        "cs cs cs";
+    gap: 0.1em;
+    margin-bottom: 1em;
+}
+
+.menu__cr {
+    grid-area: cr;
+}
+
+.menu__sf {
+    grid-area: sf;
+}
+
+.menu__cs {
+    grid-area: cs;
+}
+
+.menu__cr,
+.menu__sf,
+.menu__cs,
+.menu__header {
+    color: var(--HIGHLIGHT-COLOR);
+    font-weight: bold;
+    height: 100%;
+    display: grid;
+    place-content: center;
+}
+
+.menu__header,
+.menu__item {
+    width: 100%;
+    padding: 1em;
+    border: medium ridge var(--BORDER-COLOR);
+}
+
+.menu__item {
+    display: grid;
+    place-content: center;
+}
+
+thead th:first-child {
+    border-top-left-radius: var(--BORDER-RADIUS);
+}
+
+thead th:last-child {
+    border-top-right-radius: var(--BORDER-RADIUS);
+}
+
+tfoot td {
+    border-bottom-left-radius: var(--BORDER-RADIUS);
+    border-bottom-right-radius: var(--BORDER-RADIUS);
+}
+
+@media screen and (min-width: 576px) {
+    .header__h1::before {
+        content: '🌮 '
+    }
+
+    .header__h1::after {
+        content: ' 🌮'
+    }
+
+    .menu__header,
+    .menu__cr,
+    .menu__sf,
+    .menu__cs {
+        font-size: 125%;
+    }
+}
+
